@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registro de Llenado de Botellones</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Registro de Llenado de Botellones</h1>
+    <form id="registroForm">
+        <label for="fecha">Fecha:</label>
+        <input type="date" id="fecha" name="fecha" required>
+        <label for="hora">Hora:</label>
+        <input type="time" id="hora" name="hora" required>
+        <label for="cantidad">Cantidad de Botellas:</label>
+        <input type="number" id="cantidad" name="cantidad" required>
+        <label for="zona">Zona:</label>
+        <input type="text" id="zona" name="zona" required>
+        <button type="submit">Registrar</button>
+    </form>
+<!-- Botón para ver registros -->
+<button id="verRegistros">Ver Registros</button>
+
+<!-- Contenedor para mostrar registros -->
+<div id="registrosContainer">
+    <h2>Registros</h2>
+    <ul id="registrosList"></ul>
+</div>
+
+<button id="generarPDF">Generar PDF</button>
+<div id="pdfContainer"></div>
+<script src="script.js"></script>
+<script src="ver_registros.js"></script> <!-- Agregamos el nuevo script -->
+</body>
+</html>

@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    background-color: #db0d0d;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+form {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #b60909;
+}
+
+#historial {
+    background-color: #d60000;
+    border: 1px solid #c00909;
+    padding: 10px;
+    margin: 10px;
+}
+
+#generarPDF {
+    display: block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px;
+}
